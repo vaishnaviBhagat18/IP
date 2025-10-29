@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Tags Demo</title>
+</head>
+<body>
+
+  <h3>1. Lists</h3>
+  <ul>
+    <li>Unordered item A</li>
+    <li>Unordered item B</li>
+  </ul>
+  <ol>
+    <li>Ordered item 1</li>
+    <li>Ordered item 2</li>
+  </ol>
+  <dl>
+    <dt>Term</dt><dd>Definition</dd>
+  </dl>
+
+  <h3>2. Frame (iframe)</h3>
+  <!-- embeds another page -->
+  <iframe src="https://example.com" width="300" height="120" title="example frame"></iframe>
+
+  <h3>3. Simple Form</h3>
+  <form action="#" method="post">
+    <label>Name: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email"></label><br>
+    <label>Gender:
+      <select name="gender">
+        <option value="">--</option><option>Male</option><option>Female</option>
+      </select>
+    </label><br>
+    <label><input type="checkbox" name="agree" required> I agree</label><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3>4. Multimedia</h3>
+  <!-- audio (controls shown) -->
+  <audio controls>
+    <source src="sample-audio.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+  <br>
+  <!-- video (controls shown) -->
+  <video width="320" height="180" controls>
+    <source src="sample-video.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+
+</body>
+</html>
